@@ -8,15 +8,6 @@
     padding-left: 15px; 
 }
 
-@media (max-width: 992px){
-	
-	.navbar-brand {
-	   font-size: 1.75em;
-	   padding-left: 0; 
-	}
-	  
-}
-
 button:focus {
  	outline: none;
 }
@@ -61,28 +52,20 @@ article p {
  
    section article {
 	overflow: scroll;
+	width: 78%;
    } 
-   div.container-fluid {
-	padding-left: 0px;
-	padding-right: 0px; 
-   }
 
-nav.navbar {
+   nav.navbar, div.container-fluid {
 	padding: 0;
    }
 
-a#nav-margin {
-	padding-left: 15px; 
-
+   a#nav-margin {
+		padding-left: 15px; 
    }
 
-div#button-margin {
-	padding-right: 15px;
+   div#button-margin {
+		padding-right: 15px;
    }
-section article {
-   width: 78%;
-   }
-
 }
 
 
